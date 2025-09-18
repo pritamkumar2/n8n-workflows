@@ -1,0 +1,12 @@
+[phases.setup]
+command = "pip install -r requirements.txt"
+
+[phases.start]
+command = "python run.py"
+
+[env]
+PORT = "8000"
+
+[providers]
+python = true
+node = false
